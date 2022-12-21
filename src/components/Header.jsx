@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="header-title">Milly Liu</div>
-      <nav>
+      <div className="nav">
         <ul>
           <li>
             <a href="">Home</a>
@@ -16,7 +16,8 @@ export const Header = () => {
             <a href="">Portfolio</a>
           </li>
         </ul>
-      </nav>
+        <button className="resume-btn">Resume</button>
+      </div>
     </div>
   );
 };
