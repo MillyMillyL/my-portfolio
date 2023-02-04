@@ -12,8 +12,23 @@
   box-sizing: border-box;
 }
 
+.app {
+  width: 100%;
+  max-width: 1500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--navy);
+  padding: 0 50px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   width: 100%;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
   background-color: var(--navy);
   padding: 0 50px;
   color: white;
@@ -54,6 +69,7 @@ a:hover {
 
 .header {
   width: 100%;
+  max-width: 1500px;
   height: 70px;
   padding: 0 50px;
 
